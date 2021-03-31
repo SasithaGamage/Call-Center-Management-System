@@ -1,0 +1,816 @@
+
+
+body , html{
+	
+	background-image: url("../images/back.jpg");
+	width: 1440px;
+	height : 100%;
+	
+	
+	
+	
+	
+}
+
+#contain
+{
+	min-height : 100%;
+	
+}
+#main
+{
+	overflow : auto;
+	padding:bottom;
+	
+}
+
+
+.logo
+{
+	display: block;
+	margin :0px;
+	padding: 0px;
+	top: 47px;
+	left: 0px;
+	position: absolute;
+
+	
+}
+.cover{
+	
+	display: block;
+	margin:0px;
+	padding: 0px;
+	top: 47px;
+	left:176px;
+	right:0px;
+	position: absolute;
+
+}
+div.navi
+{
+	position:absolute;
+	left:0px;
+	right: 0px;
+	top: 0px;
+}
+
+ul.navi
+{
+	background-color: #ced7ce;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	top: 0;
+	position: stiky;
+	
+}
+ 
+li.navi
+{
+	float: left;
+	
+}
+li a.top
+{
+	color:black;
+	display: block;
+	padding: 6px 30px;
+	text-align: left;
+	text-decoration: none;
+}
+li a.top:hover
+{
+	background-color: white; 
+}
+
+.drpbtn 
+{
+	background-color:  none;
+	color: black;
+	padding: 14px 100px;
+	font-size: 20px;
+	border: 0px;
+	cursor: pointer;
+	list-style-type:none;
+	left: 0px;
+	position:relative;
+	
+	
+}
+
+ul.drpbar 
+{
+	list-style-type: none;
+	background-color :#8cffff;
+	top:180px;
+	left:176px;
+	right: 0px;
+	position:absolute;
+	
+	
+}
+.drpdwn
+{
+	left: 10px;
+	right: 0px;
+	position : auto;
+	display: inline-block;
+}
+.dropcont
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: #bdffbd;
+	z-index: 1;
+	
+}
+.dropcont a
+{
+	color : green;
+	display : block;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+.dropcont a:hover
+{
+	background-color :#a6ffff;
+}
+
+.drpdwn:hover .dropcont
+{
+	display : block;
+}
+
+.drpdwn:hover .drpbtn
+{
+	background-color : #00deff;
+}
+#footer 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px;  
+   
+   
+}
+.habout
+{
+	position : absolute;
+	top : 780px;
+	left : 355px;
+	width : 1090px;
+	background-color: #60f7ed;
+	padding : 30px;
+	height : 250px;
+}
+
+.habout p
+{
+	position : relative;
+	left : 70px;
+	width : 980px;
+	font-size : 17px;
+}
+
+.lstrip
+{
+	position : absolute;
+	width : 70px;
+	background-color : #cbd4cd;
+	height : 100%;
+	top : 0px;
+	left : 0px;
+	opacity : 0.6;
+	
+	
+}
+
+
+#footer a:link
+{
+	text-decoration:none;
+}
+#footer a:hover
+{
+	color:white;
+}
+#footerh
+{
+	left: 0px;
+   width: 1540px;
+   top : 600px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+/*.sldshw
+{
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	left : 0;
+	
+}*/
+
+
+div.slid
+{
+	top: 300px;
+	bottom: 40px;
+	left:25px;
+	right:25px;
+	position:relative;
+}
+div.change
+{
+	display: block;
+	position : absolute;
+	
+	
+	
+}
+
+.prv
+{
+	left:0px;
+	position: absolute;
+	top: 200pX;
+	cursor: pointer;
+	color: gray;
+	padding: 20px;
+	transition:0.6s ease;
+	
+	
+}
+.next
+{
+	right : -30px;
+	position: absolute;
+	top: 200px;
+	cursor: pointer;
+	color: gray;
+	padding: 20px;
+	transition:0.6s ease;
+	
+}
+
+.prv:hover ,.next:hover
+{
+	background-color: #e0e0d1;
+}
+
+.best
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	position: relative;
+	top: 1200px;
+	height: 400px;
+	width : 300px;
+	left: 140px;
+	text-align : center;
+	border-radius: 50px;
+}
+.texth h2
+{
+	background-color: #ecff80;
+	height: 50px;
+	
+	opacity: 0.7;
+	
+}
+.texth li
+{
+	
+	font-size : 18px;
+	padding : 10px;
+	
+}
+
+.events
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	
+	position: relative;
+	text-align: center;
+	top: 780px;
+	height: 400px;
+	width : 300px;
+	left: 590px;
+	border-radius: 50px;
+
+	
+}
+
+
+.notice
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	position: relative;
+	text-align: center;
+	top: 360;
+	height: 400px;
+	width : 300px;
+	left: 1040px;
+	border-radius: 50px;
+	
+}
+
+.best ul ,.events ul ,.notice ol
+{
+	
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.dial
+{
+	background-color: #ffd294;
+	position: relative;
+	height:1500px;
+	left: -8px;
+	top: 240px;
+	width: 450px;
+	
+}
+.cimg
+{
+	position: relative;
+	height: 40px;
+	width:40px;
+	top: 200px;
+	left:30px;
+	cursor:pointer;
+	padding:40px;
+}
+.cimg:hover
+{
+	opacity:0.5;
+}
+.numb
+{
+	position: relative;
+	height:300px;
+	left:60px;
+	top:200px;
+}
+.dispnumb 
+{
+	position:relative;
+	height: 50px;
+	top:200px;
+	left:65px;
+	width: 300px;
+	background-color: pink;
+	font-size: 40px;
+}
+.padnum
+{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.dialform
+{
+	position : relative;
+	background-color : #6af7f5;
+	background-image : url("../images/gif3.gif");
+	bottom : 1200px;
+	
+	left : 500px;
+	width : 900px;
+	font-size : 23px;
+	border-radius : 40px;
+	display : none;
+	
+}
+.formin
+{
+	position : relative;
+	left : 80px;
+	
+}
+
+
+input[type = text]
+{
+	height : 40px;
+	background-color: #63ff97;
+	font-size: 20px;
+}
+input[type = phone]
+{
+	height : 40px;
+	background-color: #63ff97;
+	font-size: 20px;
+	
+}
+input[type = email]
+{
+	height : 40px;
+	width : 300px;
+	background-color: #63ff97;font-size: 20px;
+	
+}
+#submbtn
+{
+	
+	width : 300px;
+	height : 40px;
+	font-size : 30px;
+	background-color : yellow;
+	
+	
+	
+	
+}
+
+hr.dialform
+{
+	height : 100px;
+	color: purple;
+}
+
+#footerc
+{
+   left: 0px;
+   width: 1540px;
+   top : 2000px;
+   text-align : bottom;
+   position: absolute;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#agentfrm
+{
+	position : relative;
+	top : 300px;
+	background-color : white;
+	border-radius : 40px;
+	opacity : 0.7;
+	padding:40px;
+	max-width : 100%;
+	left : 30px;
+	font-size : 17px;
+	
+	
+}
+
+#footerag
+{
+	left: 0px;
+   width: 1540px;
+   top : 600px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+#agentfr
+{
+	position : relative;
+	left : 820px;
+	bottom : 330px;
+}
+#agentfl
+{
+	position : relative;
+	left : 130px
+}
+.typeopt
+{
+	position : relative;
+	left : 90px;
+	
+}
+
+.agentfrmbtn input[type = submit]
+{
+	background-color : #99ffb1;
+	padding : 10px;
+	opacity : 10;
+	position : relative;
+	bottom : 50px;
+	left : 850px;
+	width : 150px;
+	height : 50px;
+	font-size : 20px;
+	border-radius : 20px;
+	
+}
+.agentfrmbtn input[type = button]
+{
+	background-color : #99ffb1;
+	padding : 10px;
+	opacity : 10;
+	position : relative;
+	bottom : 50px;
+	left : 850px;
+	width : 150px;
+	height : 50px;
+	font-size : 20px;
+	border-radius : 20px;
+	
+}
+#agentfrm input[type = text]
+{
+	height : 40px;
+	background-color: #adffff;
+	font-size: 20px;
+	border-bottom-style : solid;
+}
+#agentfrm input[type = phone]
+{
+	height : 40px;
+	background-color: #adffff;
+	font-size: 20px;
+	
+}
+#agentfrm input[type = email]
+{
+	height : 40px;
+	width : 300px;
+	background-color: #adffff;
+	font-size: 20px;
+}
+
+.agenl input[type = checkbox]
+{
+	
+	font-size: 25px;
+	color : blue;
+	
+}
+
+
+/*---------------------------------------------------------------------Display page-----------------------------------------------------------------------------------*/
+
+#selcat
+{
+	position : absolute;
+	width : 1350px;
+	height : 150px;
+	background-color : #b6ffb3;
+	top : 300px;
+	left : 80px;
+	border-radius : 30px;
+	font-size : 30px;
+	font-style : bold;
+	opacity : 0.7; 
+}
+.selcatbtn
+{
+	width : 230px;
+	height : 50px;
+	background-color : #fae8ff;
+	border-radius : 20px;
+	font-size : 20px;
+	
+	
+}
+#dnotice1
+{
+	position : relative;
+	top : 50px;
+	left : 40px;
+}
+#dnotice2
+{
+	position : relative;
+	top : 50px;
+	left : 80px;
+}
+#dnotice3
+{
+	position : relative;
+	top : 50px;
+	left : 130px;
+	width : 350px;
+}
+
+
+/*-----------------------------------------------------------------------------------new page---------------------------------------------------------------------------*/
+
+.fstdiv
+{
+	background-color :rgb(60, 179, 113);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 500px;
+	opacity : 0.6;
+	border-radius : 30px;
+	
+}
+#dial2
+{
+	position : relative;
+	left : 60px;
+	top:20px;
+	width: 120px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.btn2clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 40%, 50%);
+  color: black; 
+  border: 2px solid #f44336;
+  color: black;
+  border: 2px solid #e7e7e7;
+  font-size:24px;
+}
+.btn2clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#mybtnid1
+{
+	position : relative;
+	top : 20px;
+	left : 70px;
+	
+}
+#mybtnid2
+{
+	position : relative;
+	top:20px;
+	left:100px;
+}
+#mybtnid3
+{
+	position: relative;
+	top:20px;
+	left:150px;
+}
+#mybtnid4
+{
+	position: relative;
+	top:20px;
+	left:200px;
+}
+#mybtnid5
+{
+	position: relative;
+	top:20px;
+	left:250px;
+}
+
+
+
+.scnddiv
+{
+	background-color : rgb(90, 147, 185);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 900px;
+	opacity : 0.8;
+	border-radius : 30px;
+}
+.btn3clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+  color: black; 
+  border: 2px solid #f44336;
+  font-size:24px;
+}
+.btn3clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#dial3
+{position : relative;
+	left : 60px;
+	top:20px;
+	
+	width: 120px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.thrddiv
+{
+	background-color : rgb(60, 179, 113);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 900px;
+	opacity : 0.8;
+	border-radius : 30px;
+}
+.btn4clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+	color: black; 
+	border: 2px solid #f44336;
+	font-size:24px;
+	
+}
+.btn4clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#dial4
+{position : relative;
+	left : 60px;
+	top:20px;
+	
+	width: 150px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
